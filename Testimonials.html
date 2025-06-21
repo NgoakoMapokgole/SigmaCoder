@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <link rel="icon" href="LOGO.ico">
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="mainJS.js"></script>
+</head>
+<body>
+    <header>
+        <img  src="LOGO.png" alt="LOGO" height="100" width="100">
+        <nav>
+            <ul>
+                <li><a href="#" >About Me</a></li>
+                <li><a href="">Contact</a></li>
+                <li><label onclick="LogInModal(); return false;">Login</label></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="overlay"></div>
+        <section id="cover" >
+            <span class="material-icons" style="font-size:48px;">close</span>
+            <h1 onclick="SignUpModal()" id="signupHeader">Signing UP </h1><h1>/</h1><h1 onclick="LogInModal(); return false;" id="loginHeader"> Signing IN</h1>
+            <br>
+            <section id="Log">
+            <div id="loginForm">
+                <h1>SignIn</h1>
+                <form action="/login" method="post" >
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br>
+                    <button type="submit" onclick="Login">Login</button>
+                </form>
+            </div>
+            <div id="signupForm">
+            <h1>SignUp</h1>
+                <form action="/login" method="post" >
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </section>
+        </section>
+        </main>
+    <footer>
+        <p>&copy; 2025 Sigma Coder. All rights reserved.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/terms">Terms of Service</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <nav id="social">
+            <ul>
+               <li><a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a> </li>
+               <li><a href="https://github.com/NgoakoMapokgole" target="_blank" rel="noopener">GitHub</a> </li> 
+               <li><a href="https://www.linkedin.com/in/ngoako-mapokgole-b4925319b/" target="_blank" rel="noopener">LinkedIn</a></li>
+               <li><a href="https://www.youtube.com/@sigCode" target="_blank" rel="noopener">Youtube</a></li>
+               <li><a href="https://www.instagram.com/sigmcoder/" target="_blank" rel="noopener">Instagram</a></li>
+            </ul>
+            
+        </nav>
+            
+        
+    </footer>
+</body>
+</html>

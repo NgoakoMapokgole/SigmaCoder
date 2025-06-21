@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy of Policy</title>
+    <link rel="icon" href="LOGO.ico">
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="mainJS.js"></script>
+</head>
+<body>
+    <header>
+        <img  src="LOGO.png" alt="LOGO" height="100" width="100">
+        <nav>
+            <ul>
+                <li><a href="#" >About Me</a></li>
+                <li><a href="">Contact</a></li>
+                <li><label onclick="LogInModal(); return false;">Login</label></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="overlay"></div>
+        <section id="cover" >
+            <span class="material-icons" style="font-size:48px;">close</span>
+            <h1 onclick="SignUpModal()" id="signupHeader">Signing UP </h1><h1>/</h1><h1 onclick="LogInModal(); return false;" id="loginHeader"> Signing IN</h1>
+            <br>
+            <section id="Log">
+            <div id="loginForm">
+                <h1>SignIn</h1>
+                <form action="/login" method="post" >
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br>
+                    <button type="submit" onclick="Login">Login</button>
+                </form>
+            </div>
+            <div id="signupForm">
+            <h1>SignUp</h1>
+                <form action="/login" method="post" >
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </section>
+        </section>
+        <section id="welcome">
+
+            <img name="second" src="LOGO.png" alt="LOGO" height="400" width="400">
+            <h1>Privacy of Policy from Sigma Coder</h1>
+            <p>Your go-to platform for coding tutorials, resources, and community support.</p>
+            <p>Explore our content, join discussions, and enhance your coding skills with us!</p>
+        </section>
+        <section id="privacyPolicy">
+            <h1>Privacy Policy</h1>
+            <style>#privacyPolicy{text-align: center;}ul li{list-style: none;}</style>
+           
+
+<h2>Effective Date: June 21, 2025</h2>
+
+<p>At Sigma Coder, your privacy is important. This Privacy Policy outlines the types of information we may collect, how we use it, and how we protect it.</p>
+
+
+<h2>1. Information We Collect</h2>
+<p>We may collect the following types of information:</p>
+<ul>
+    <li><strong>Personal Information</strong> (if you sign up or contact us):
+        <ul>
+            <li>Name</li>
+            <li>Email address</li>
+            <li>Username</li>
+        </ul>
+    </li>
+    <li><strong>Technical Information</strong> (automatically collected):
+        <ul>
+            <li>Browser type</li>
+            <li>IP address</li>
+            <li>Pages visited</li>
+            <li>Time spent on the site</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>2. How We Use Your Information</h2>
+<p>We use your information to:</p>
+<ul>
+    <li>Improve website performance and user experience</li>
+    <li>Respond to messages or support requests</li>
+    <li>Provide access to your account (if applicable)</li>
+    <li>Analyze traffic using tools like Google Analytics</li>
+</ul>
+<p>We <strong>do not sell or share</strong> your personal data with third parties for marketing purposes.</p>
+
+<h2>3. Cookies</h2>
+<p>Sigma Coder may use <strong>cookies</strong> to:</p>
+<ul>
+    <li>Remember your preferences</li>
+    <li>Monitor website traffic</li>
+    <li>Improve performance</li>
+</ul>
+<p>You can control cookies in your browser settings.</p>
+
+<h2>4. Data Storage &amp; Security</h2>
+<ul>
+    <li>Personal data is stored securely and only accessible by authorized individuals.</li>
+    <li>We take reasonable steps to protect your information, but no method of transmission over the internet is 100% secure.</li>
+</ul>
+
+<h2>5. Third-Party Services</h2>
+<p>We may use third-party tools (like GitHub, YouTube, or social embeds) which may collect data under their own privacy policies. We recommend reviewing their terms if you interact with embedded content.</p>
+
+<h2>6. Your Rights</h2>
+<p>Depending on your location, you may have the right to:</p>
+<ul>
+    <li>Access, edit, or delete your personal information</li>
+    <li>Opt out of data tracking</li>
+    <li>Withdraw consent for data use</li>
+</ul>
+<p>To exercise these rights, contact us at: <strong>[your-email]@sigmacoder.xyz</strong></p>
+
+
+
+<h2>7. Changes to This Policy</h2>
+
+<p>
+We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated effective date.
+</p>
+
+
+
+
+<h2> 8. Contact</h2>
+
+<p> If you have any questions or concerns about this policy, please contact:<br>
+📧 **[privacy@sigmacoder.xyz](mailto:privacy@sigmacoder.xyz)**</p>
+            <p>Thank you for visiting Sigma Coder!</p>
+
+        </section>
+        </main>
+    <footer>
+        <p>&copy; 2025 Sigma Coder. All rights reserved.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/terms">Terms of Service</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <nav id="social">
+            <ul>
+               <li><a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a> </li>
+               <li><a href="https://github.com/NgoakoMapokgole" target="_blank" rel="noopener">GitHub</a> </li> 
+               <li><a href="https://www.linkedin.com/in/ngoako-mapokgole-b4925319b/" target="_blank" rel="noopener">LinkedIn</a></li>
+               <li><a href="https://www.youtube.com/@sigCode" target="_blank" rel="noopener">Youtube</a></li>
+               <li><a href="https://www.instagram.com/sigmcoder/" target="_blank" rel="noopener">Instagram</a></li>
+            </ul>
+            
+        </nav>
+            
+        
+    </footer>
+</body>
+</html>
